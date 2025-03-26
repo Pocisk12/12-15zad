@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmik</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000; /* Czarny kolor tła */
+            overflow: hidden; /* Ukrycie pasków przewijania */
+        }
+        video {
+            width: 100%; /* Dopasowanie szerokości do ramki */
+            height: 100%; /* Dopasowanie wysokości do ramki */
+            object-fit: contain; /* Cały film w ramce bez obcinania */
+        }
+    </style>
+</head>
+<body>
+    <video controls autoplay loop>
+        <source src="Filmik_nazwisko_wlazlo.mp4" type="video/mp4">
+        Twoja przeglądarka nie wspiera odtwarzania wideo.
+    </video>
+</body>
+</html>
